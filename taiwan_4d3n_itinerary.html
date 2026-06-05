@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣 4天3夜 經典團體行行程表</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #18bc9c;
+            --accent-color: #e74c3c;
+            --bg-light: #f8f9fa;
+            --border-color: #eaeded;
+        }
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f6f7;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 28px;
+        }
+        .header p {
+            color: #7f8c8d;
+            margin: 10px 0 0 0;
+            font-size: 16px;
+        }
+        .day-card {
+            margin-bottom: 35px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            overflow: hidden;
+            page-break-inside: avoid;
+        }
+        .day-title {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 12px 20px;
+            margin: 0;
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .day-hotel {
+            background-color: #eef2f3;
+            padding: 10px 20px;
+            font-size: 14px;
+            color: #555;
+            border-bottom: 1px solid var(--border-color);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: var(--bg-light);
+            color: #7f8c8d;
+            font-weight: 600;
+            border-bottom: 2px solid var(--border-color);
+            font-size: 14px;
+        }
+        td {
+            border-bottom: 1px solid var(--border-color);
+            font-size: 15px;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .time-col {
+            width: 15%;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            font-size: 11px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+        .badge-food { background-color: #e8f8f5; color: #117a65; }
+        .badge-alert { background-color: #fdedec; color: #c0392b; }
+        .badge-free { background-color: #ebf5fb; color: #2980b9; }
+        .alert-box {
+            background-color: #fef9e7;
+            border-left: 4px solid #f1c40f;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .alert-box h4 {
+            margin: 0 0 8px 0;
+            color: #b7950b;
+        }
+        .alert-box ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #7d6608;
+        }
+        @media (max-width: 600px) {
+            .day-title { display: block; }
+            th, td { padding: 8px 10px; font-size: 13px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>台灣 4 天 3 夜 經典團體行行程表</h1>
+        <p>羽田早去晚回班機 • 市區觀光與平溪九份一日遊</p>
+    </div>
+
+    <!-- DAY 1 -->
+    <div class="day-card">
+        <div class="day-title">
+            <span>第一天：出發抵達，開啟台灣之旅</span>
+            <span style="font-size: 14px;">✈️ 早班機</span>
+        </div>
+        <div class="day-hotel">🏨 住宿：台北市區飯店</div>
+        <table>
+            <thead>
+                <tr>
+                    <th class="time-col">時間</th>
+                    <th>行程內容</th>
+                    <th>備註 / 餐食</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time-col">05:00 - 06:00</td>
+                    <td>從 <strong>羽田機場</strong> 搭乘直飛航班前往台北</td>
+                    <td>機上休息</td>
+                </tr>
+                <tr>
+                    <td class="time-col">07:55 - 08:55</td>
+                    <td>抵達 <strong>台北桃園國際機場</strong></td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td class="time-col">早上 / 下午</td>
+                    <td>由當地導遊迎接，途中前往 <strong>特約兩替店（換匯店）</strong> 兌換台幣，隨後接送至飯店 Check-in。</td>
+                    <td>抵達飯店後為自由活動時間</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- DAY 2 -->
+    <div class="day-card">
+        <div class="day-title">
+            <span>第二天：台北市區、十分放天燈與九份經典一日遊</span>
+            <span style="font-size: 14px;">🚌 團體行程</span>
+        </div>
+        <div class="day-hotel">🏨 住宿：台北市區飯店</div>
+        <table>
+            <thead>
+                <tr>
+                    <th class="time-col">時間</th>
+                    <th>行程內容</th>
+                    <th>備註 / 餐食</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time-col">10:30</td>
+                    <td>從飯店出發</td>
+                    <td>請於大廳準時集合</td>
+                </tr>
+                <tr>
+                    <td class="time-col">上午</td>
+                    <td><strong>中正紀念堂</strong> 參觀（下車、外觀觀光，停留約 40 分鐘）</td>
+                    <td>若遇不定期維護日則僅在外圍參觀</td>
+                </tr>
+                <tr>
+                    <td class="time-col">中午</td>
+                    <td>午餐：<strong>大戈壁蒙古烤肉</strong>（鐵板烤肉吃到飽，附台灣式火鍋）</td>
+                    <td><span class="badge badge-food">中餐：蒙古烤肉吃到飽</span></td>
+                </tr>
+                <tr>
+                    <td class="time-col">下午</td>
+                    <td><strong>迪化街、霞海城隍廟</strong> 散策（下車自由漫步，停留約 60 分鐘）</td>
+                    <td>🎁 贈送每人1杯 <strong>50嵐珍奶</strong>（佔床者限定）</td>
+                </tr>
+                <tr>
+                    <td class="time-col">下午</td>
+                    <td><strong>十分老街</strong> 散策與 <strong>天燈施放體驗</strong>（停留約 40 分鐘）</td>
+                    <td>🏮 天燈為 2-4 人共用一個（視天氣施放）</td>
+                </tr>
+                <tr>
+                    <td class="time-col">傍晚</td>
+                    <td><strong>九份山城</strong> 散策（自由逛街，停留約 90 分鐘）</td>
+                    <td>⚠️ 階梯較多，請穿著好走路的鞋子</td>
+                </tr>
+                <tr>
+                    <td class="time-col">晚上</td>
+                    <td>晚餐：九份當地餐廳享用 <strong>台式鄉土料理</strong></td>
+                    <td><span class="badge badge-food">晚餐：九份鄉土料理</span></td>
+                </tr>
+                <tr>
+                    <td class="time-col">20:15</td>
+                    <td>專車送往解散點（可選擇：<strong>士林夜市</strong>、<strong>按摩店</strong> 或 <strong>返回飯店</strong>）</td>
+                    <td><span class="badge badge-alert">注意</span> 自行留在夜市或按摩店者，稍後需自理交通回飯店</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- DAY 3 -->
+    <div class="day-card">
+        <div class="day-title">
+            <span>第三天：台北全日自由活動 → 晚班機返國</span>
+            <span style="font-size: 14px;">🛍️ 自由行 / ✈️ 機中泊</span>
+        </div>
+        <div class="day-hotel">🏨 住宿：夜宿機上</div>
+        <table>
+            <thead>
+                <tr>
+                    <th class="time-col">時間</th>
+                    <th>行程內容</th>
+                    <th>備註 / 餐食</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time-col">全日</td>
+                    <td><strong>全日自由活動</strong> <span class="badge badge-free">Free Time</span></td>
+                    <td>退房後行李可先寄放飯店櫃檯</td>
+                </tr>
+                <tr>
+                    <td class="time-col">傍晚</td>
+                    <td><strong>自行前往桃園機場</strong> 辦理報到手續</td>
+                    <td>
+                        <span class="badge badge-alert">自理交通</span> 須於起飛前 2 小時完成 Check-in。<br>
+                        <em>💡 可加價 3,000 日圓/人 升級旅行社拼車送機。</em>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="time-col">20:25 - 00:10</td>
+                    <td>從 <strong>台北桃園國際機場</strong> 搭乘直飛航班返回羽田機場</td>
+                    <td>班機跨夜飛行</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- DAY 4 -->
+    <div class="day-card">
+        <div class="day-title">
+            <span>第四天：凌晨抵達羽田機場</span>
+            <span style="font-size: 14px;">🏁 行程結束</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th class="time-col">時間</th>
+                    <th>行程內容</th>
+                    <th>備註</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time-col">00:45 - 04:25</td>
+                    <td>抵達 <strong>羽田機場</strong>，辦理入境後解散</td>
+                    <td>請注意清晨返家的交通銜接</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 注意事項區塊 -->
+    <div class="alert-box">
+        <h4>💡 日本官方重要提醒（注意事項）：</h4>
+        <ul>
+            <li><strong>關於九份路況：</strong> 九份山城階梯密布、坡度較陡。若同行者行動不便或體力較差，報名前請務必評估。此外，若遇週末或台灣國定假日，因交通管制，可能需在中途換乘公共接駁公車上山。</li>
+            <li><strong>關於天燈活動：</strong> 天燈為 2-4 人共用一個。如遇大雨、強風等惡劣天氣導致無法施放，屬不可抗力因素，旅行社不予退費。</li>
+            <li><strong>關於回程送機：</strong> 基本方案不含最後一天去機場的交通。若有需要，建議每人加價 3,000 日圓預約旅行社的混乘送機服務，省去搬行李轉車的麻煩。</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
